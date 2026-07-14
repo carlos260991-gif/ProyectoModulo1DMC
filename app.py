@@ -1,4 +1,8 @@
 import streamlit as st
+#también usaremos la libreria  numpy ya que utilizaremos cálculos#
+importar numpy as np
+
+
 st.title("Proyecto módulo 1 Fundamentals") #title par crer un titulo en un espacio generado#
 st.sidebar.title ("Parámetros") #sidebar se usa para crear un adicional#
 #ahora crearemos una interfaz insertando imagenes#
@@ -20,6 +24,17 @@ if modulo == "Módulo Listas": #importante colocar doble = en las condicionales 
 
 elif modulo == "Módulo Array":
   st.write ("Estas en el módulo de arreglos")
+  limite_inferior = st.number_input("ingrese el límite inferior", value = 1200)
+  limite_superior = st.number_input("ingrese el límite superior",value = 1250)
+  cantidad_datos = st.number_input("ingrese totalidad de datos a crear",value = 31)
+  #a continuacón se usa el Random.randint el cual pertenece a la libreria numpy el cual genera aleatoriamente valores de un rango que delimitamos como variables inferiores y limites#
+  datos_produccion = np.random.randint(limite_inferior, limite_superior, cantidad_datos)
+  st.write(datos_produccion) #hasta aqui se generan datos numericos aleatorios#
+  #se usará sum y mean como parte de la libreria numpy para sumar y promediar los resultados de la variable  datos_produccion#
+  st.write ("La producción total es:" , np.sum (datos_produccion))
+  st.write ("la producción total es:", np.mean (datos_produccion))
+
+
 
 else:
   st.write ("Estas en el módulo de funciones")
