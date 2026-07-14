@@ -2,7 +2,7 @@ import streamlit as st
 st.title("Proyecto módulo 1 Fundamentals") #title par crer un titulo en un espacio generado#
 st.sidebar.title ("Parámetros") #sidebar se usa para crear un adicional#
 #ahora crearemos una interfaz insertando imagenes#
-st.image(Python logo.png)
+st.image("Python_logo.png")
 
 # a continuación se genera tres variables que generan una lista numerica que se visualizarán como un desplegable numerico de los rango determinados#
 valor_inicial = st.number_input("ingrese el valor inicial", value = 0)
