@@ -1,6 +1,6 @@
 import streamlit as st
 #también usaremos la libreria  numpy ya que utilizaremos cálculos#
-importar numpy as np
+import numpy as np
 
 
 st.title("Proyecto módulo 1 Fundamentals") #title par crer un titulo en un espacio generado#
