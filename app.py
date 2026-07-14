@@ -34,8 +34,6 @@ elif modulo == "Módulo Array":
   st.write ("La producción total es:" , np.sum (datos_produccion))
   st.write ("la producción total es:", np.mean (datos_produccion))
 
-
-
 else:
   st.write ("Estas en el módulo de funciones")
 
