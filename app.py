@@ -8,7 +8,7 @@ st.sidebar.image ("DMC.png") #ahora estamos insertando la imagen en la ventalla 
 #se esta creando una sección dentro de la ventana emergente donde se creará una lista con el selectbox y lo combinaremos con el IF que es un condicional
 modulo = st.sidebar.selectbox("Elija un módulo", ["Módulo Listas", "Módulo Array", "Módulo Funciones"])
 
-if modulo == "Módulo Listas" : #importante colocar doble = en las condicionales If y Elif#
+if modulo == "Módulo Listas": #importante colocar doble = en las condicionales If y Elif#
 
 
   # a continuación se genera tres variables que generan una lista numerica que se visualizarán como un desplegable numerico de los rango determinados#
