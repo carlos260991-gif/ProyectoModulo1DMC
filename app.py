@@ -7,4 +7,5 @@ valor_final = st.number_input("ingrese el valor final",value = 1)
 
 lista_numerica = list(range(valor_inicial, valor_final))
 
-st.write(lista_numerica)
+st.write(lista_numerica) #para este espacio se reemplaza el print por el write, es el comando de resultado#
+#usaremos las funciones de ingresar imagenes#
