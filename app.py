@@ -18,7 +18,7 @@ if modulo == "Módulo Listas": #importante colocar doble = en las condicionales 
   st.write(lista_numerica) #para este espacio se reemplaza el print por el write, es el comando de resultado#
   #usaremos las funciones de ingresar imagenes#
 
-elif modulo == "Módulo Array"
+elif modulo == "Módulo Array":
   st.write ("Estas en el módulo de arreglos")
 
 else:
